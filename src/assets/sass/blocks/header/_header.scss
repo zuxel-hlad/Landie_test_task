@@ -1,0 +1,82 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  &__column {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    &_first {
+      margin: 60px 0 0 0;
+    }
+    &_second {
+      margin: 40px 0 0 0;
+      order: -1;
+    }
+    &_third {
+      margin: auto 0 10px 0;
+    }
+  }
+  &-menu {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    min-height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    display: flex;
+    flex-direction: column;
+    transition: 1.5s all;
+    &_active {
+      left: 0;
+    }
+  }
+
+  &-nav {
+    &__link {
+      text-decoration: none;
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      color: $mobile-color;
+      padding: 10px 0;
+    }
+  }
+  &__logo {
+    display: block;
+    text-decoration: none;
+    color: $mobile-color;
+    font-weight: 900;
+    font-size: 26px;
+    &:active {
+      color: inherit;
+    }
+  }
+
+  &__btn-buy {
+    display: block;
+    text-decoration: none;
+    color: $mobile-color;
+    font-weight: 500;
+  }
+
+  &-burger {
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    span {
+      display: block;
+      height: 2px;
+      background-color: #000;
+      margin: 4px 0 0 0;
+      &:first-child {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@import './header-media';
