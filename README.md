@@ -1,2 +1,2 @@
-This project is about Portfolio page for developers.
-Technologies used: HTML,CSS Grid,FlexBox, SCSS, JS, Gulp.
+This is Test task for position HTML coder.
+Technologies used: HTML,CSS,FlexBox, SCSS, JS, Gulp.
