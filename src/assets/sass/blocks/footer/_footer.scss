@@ -1,0 +1,81 @@
+.footer {
+  padding: 42px 0 32px 0;
+  background-color: $footer-color;
+  &__logo {
+    text-align: center;
+    font-size: 26px;
+    &:active {
+      color: inherit;
+    }
+  }
+  &__busines {
+    margin: 20px 0 0 0;
+  }
+  &__copyrate {
+    display: block;
+    font-size: 14px;
+    color: $copyrate-color;
+    font-weight: 500;
+    text-align: center;
+  }
+  &__purchase {
+    display: block;
+    margin: 20px auto 0;
+    text-decoration: none;
+    color: $mobile-color;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 7px 0;
+    background-color: $btn-color;
+    max-width: 105px;
+    border-radius: 2px;
+  }
+  &__devider {
+    margin: 26px 0 0 0;
+    height: 1px;
+    background-color: $devider-color;
+  }
+  &__links {
+    margin: 30px 0 0 0;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__list-item {
+    margin: 5px 0;
+    &:first-child {
+      margin: 0 0 5px 0;
+    }
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: $footer-nav-color;
+    padding: 5px 0;
+    &:active {
+      color: inherit;
+    }
+  }
+
+  &__social {
+    margin: 26px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__social-link {
+    text-decoration: none;
+    display: block;
+    color: $footer-social-links;
+    i {
+      display: block;
+    }
+  }
+}
+
+@import './footer-media';

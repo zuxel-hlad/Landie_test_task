@@ -29,21 +29,21 @@
 
 .icon-facebook:before {
   content: '\e900';
-  color: #b0b8bc;
+  /* color: #b0b8bc; */
 }
 .icon-Instagram:before {
   content: '\e901';
-  color: #b0b8bc;
+  /* color: #b0b8bc; */
 }
 .icon-linkedln:before {
   content: '\e902';
-  color: #b0b8bc;
+  /* color: #b0b8bc; */
 }
 .icon-twitter:before {
   content: '\e903';
-  color: #b0b8bc;
+  /* color: #b0b8bc; */
 }
 .icon-youtube:before {
   content: '\e904';
-  color: #b0b8bc;
+  /* color: #b0b8bc; */
 }

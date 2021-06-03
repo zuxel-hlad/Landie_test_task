@@ -1,5 +1,16 @@
+@media (min-width: 576px) {
+  .promo {
+    &__about {
+      width: 50%;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .promo {
+    &__about {
+      margin: 30px 0 0 0;
+    }
     &__title {
       font-size: 40px;
       line-height: 40px;
@@ -13,6 +24,7 @@
 @media (min-width: 992px) {
   .promo {
     &__btns {
+      margin: 40px 0 0 0;
       flex-direction: row;
       justify-content: space-between;
       max-width: 408px;
@@ -27,8 +39,9 @@
 @media (min-width: 1200px) {
   .promo {
     min-height: 1159px;
+    padding: 67px 0 0 0;
     &__about {
-      padding: 259px 0 0 0;
+      margin: 259px 0 0 0;
     }
     &__title {
       font-size: 50px;

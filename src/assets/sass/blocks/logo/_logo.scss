@@ -1,0 +1,9 @@
+.logo {
+  text-decoration: none;
+  display: block;
+  font-weight: 900;
+  color: $logo-color;
+  &:active {
+    color: inherit;
+  }
+}

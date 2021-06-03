@@ -1,9 +1,7 @@
 .promo {
   min-height: 100vh;
+  padding: 50px 0 0 0;
   background: url('../img/promobg.png') top right/auto no-repeat;
-  &__about {
-    padding: 50px 0 0 0;
-  }
 
   &__title {
     font-size: 20px;
